@@ -43,12 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactory\Abstract\IGameApp.cs" />
-    <Compile Include="AbstractFactory\Abstract\IWorkApp.cs" />
-    <Compile Include="AbstractFactory\Concrete\AppsFactoryAndroid.cs" />
-    <Compile Include="AbstractFactory\Concrete\AppsFactoryiOS.cs" />
-    <Compile Include="AbstractFactory\Concrete\GameApp.cs" />
-    <Compile Include="AbstractFactory\Concrete\WorkApp.cs" />
+    <Compile Include="AbstractFactory\Abstract\IToolbar.cs" />
+    <Compile Include="AbstractFactory\Abstract\ITable.cs" />
+    <Compile Include="AbstractFactory\Concrete\AndroidAppsFactory.cs" />
+    <Compile Include="AbstractFactory\Concrete\iOSAppsFactory.cs" />
+    <Compile Include="AbstractFactory\Concrete\AndroidTable.cs" />
+    <Compile Include="AbstractFactory\Concrete\AndroidToolbar.cs" />
+    <Compile Include="AbstractFactory\Concrete\iOSToolbar.cs" />
+    <Compile Include="AbstractFactory\Concrete\iOSTable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Singleton.cs" />

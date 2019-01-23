@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Patterns_SingletonFabric
 {
-    class AppsFactoryAndroid : IAppsAbstractFabric
+    class AndroidToolbar : IToolbar
     {
-        public IGameApp CreateGameApp()
+        public void FillText(string text)
         {
             throw new NotImplementedException();
         }
 
-        public IWorkApp CreateWorkApp()
+        public void GenerateBar()
         {
             throw new NotImplementedException();
         }

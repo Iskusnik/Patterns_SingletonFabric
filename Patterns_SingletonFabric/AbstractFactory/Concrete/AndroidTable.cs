@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Patterns_SingletonFabric
 {
-    class AppsFactoryiOS : IAppsAbstractFabric
+    class AndroidTable : ITable
     {
-        public IGameApp CreateGameApp()
+        public void FillTable(int[,] cells)
         {
             throw new NotImplementedException();
         }
 
-        public IWorkApp CreateWorkApp()
+        public void GenerateTable()
         {
             throw new NotImplementedException();
         }

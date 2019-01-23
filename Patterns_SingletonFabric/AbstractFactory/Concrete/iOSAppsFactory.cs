@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace Patterns_SingletonFabric
 {
-    class WorkApp : IWorkApp
+    class iOSAppsFactory : IAppsAbstractFabric
     {
-        public string GenerateFunctions(string[] specs)
+        public ITable CreateTable()
         {
             throw new NotImplementedException();
         }
 
-        public void GenerateInterface(string userInterface)
+        public IToolbar CreateToolbar()
         {
-            Console.WriteLine("");
+            throw new NotImplementedException();
         }
     }
 }

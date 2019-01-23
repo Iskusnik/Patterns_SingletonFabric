@@ -6,16 +6,18 @@ using System.Threading.Tasks;
 
 namespace Patterns_SingletonFabric
 {
-    class GameApp : IGameApp
+    class AndroidAppsFactory : IAppsAbstractFabric
     {
-        public string GenerateGraphics(string driver)
+
+        public ITable CreateTable()
         {
             throw new NotImplementedException();
         }
 
-        public void GenerateInterface(string userInterface)
+        public IToolbar CreateToolbar()
         {
             throw new NotImplementedException();
         }
+        
     }
 }

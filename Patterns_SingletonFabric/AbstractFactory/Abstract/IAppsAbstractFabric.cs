@@ -10,8 +10,8 @@ namespace Patterns_SingletonFabric
     //Интерфейс абстрактной фабрики
     public interface IAppsAbstractFabric
     {
-        IGameApp CreateGameApp();
+        ITable CreateTable();
 
-        IWorkApp CreateWorkApp();
+        IToolbar CreateToolbar();
     }
   }

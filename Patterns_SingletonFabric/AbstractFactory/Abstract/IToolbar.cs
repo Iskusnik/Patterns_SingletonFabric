@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Patterns_SingletonFabric
 {
-    public interface IWorkApp
+    public interface IToolbar
     {
-        void GenerateInterface(string userInterface);
-        string GenerateFunctions(string[] specs);
+        void GenerateBar();
+
+        void FillText(string text);
     }
 }

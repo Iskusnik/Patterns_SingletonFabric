@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Patterns_SingletonFabric
 {
-    public interface IGameApp
+    public interface ITable
     {
-        void GenerateInterface(string userInterface);
-        string GenerateGraphics(string driver);
+        void GenerateTable();
+
+        void FillTable(int[,] cells);
     }
 }
