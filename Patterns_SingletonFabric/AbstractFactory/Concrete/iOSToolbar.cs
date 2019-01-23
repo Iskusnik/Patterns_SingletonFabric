@@ -10,12 +10,12 @@ namespace Patterns_SingletonFabric
     {
         public void FillText(string text)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("ToolbariOS: {0}", text);
         }
 
         public void GenerateBar()
         {
-            throw new NotImplementedException();
+            Console.WriteLine(".....'\'Toolbar сгенерирован'/'.....");
         }
     }
 }

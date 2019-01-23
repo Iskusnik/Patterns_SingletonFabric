@@ -11,12 +11,12 @@ namespace Patterns_SingletonFabric
 
         public ITable CreateTable()
         {
-            throw new NotImplementedException();
+            return new AndroidTable();
         }
 
         public IToolbar CreateToolbar()
         {
-            throw new NotImplementedException();
+            return new AndroidToolbar();
         }
         
     }

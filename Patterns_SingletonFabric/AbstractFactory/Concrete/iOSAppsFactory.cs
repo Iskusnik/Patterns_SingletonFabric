@@ -10,12 +10,12 @@ namespace Patterns_SingletonFabric
     {
         public ITable CreateTable()
         {
-            throw new NotImplementedException();
+            return new iOSTable();
         }
 
         public IToolbar CreateToolbar()
         {
-            throw new NotImplementedException();
+            return new iOSToolbar();
         }
     }
 }
