@@ -13,6 +13,8 @@ namespace Patterns_SingletonFabric
         public void FillTable(int[,] cells)
         {
             Cells = cells;
+
+            PrintTable();
         }
         
         public void GenerateTable()
@@ -26,10 +28,10 @@ namespace Patterns_SingletonFabric
             Console.WriteLine("Таблица под Android:");
             for (int i = 0; i < Cells.GetLength(0); i++)
             {
-                Console.WriteLine();
-
                 for (int j = 0; j < Cells.GetLength(1); j++)
                     Console.Write(" {0}", Cells[i, j]);
+
+                Console.WriteLine();
             }
         }
 

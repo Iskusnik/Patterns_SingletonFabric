@@ -17,6 +17,8 @@ namespace Patterns_SingletonFabric
             for (int i = 0; i < Cells.GetLength(0); i++)
                 for (int j = 0; j < Cells.GetLength(1); j++)
                     Cells[i, j] = cells[i, j].ToString();
+
+            PrintTable();
         }
 
         public void GenerateTable()
